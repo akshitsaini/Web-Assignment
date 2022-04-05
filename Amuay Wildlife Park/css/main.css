@@ -7,10 +7,17 @@
 }
 /* nav */
 .navbar {
-    width: 1519px;
+
+    width: 100%;
+
     height: 50px;
+
     background-color: white;
+
     box-shadow: 0 -2px 2px white;
+
+
+
 }
 
 .navbar ul {
@@ -23,7 +30,7 @@
 
     float: left;
 
-    width: 191px;
+    width: 165px;
 
     height: 50px;
 
@@ -116,10 +123,9 @@
 }
 .slogan p{
     margin-left: 300px;
-    color: black;
-    font-weight: bold;
+    color: rgb(255,131,124);
 }
-/*Slogan end*/
+
 
 .container{
     background-color: cornsilk;
@@ -142,7 +148,7 @@
 
 }
 .banner-box{
-    width: 1000px;
+    width: 100%;
     height: 650px;
     background-color: cadetblue;
     background-image: url('../images/Keel Billed Toucan1.jpeg');
@@ -167,28 +173,23 @@
 }
 
 /*fill*/
-.container{
-    padding: 50px 50px;
-    height: 500px;
-    width: 100%;
-    background: white;
-
-}
-.container img{
-
-    height: 400px;
-
+.container1{
+    height: 250px;
+    width: 50%;
+    background: cornsilk;
 }
 
-.container p{
-    width: 800px;
-    float: right;
-    font-family:"Times New Roman",Georgia,Serif;
-    font-size: 25px;
-    position: relative;
-    right: 20%;
+.container2{
+    height: 250px;
+    width: 50%;
+    background: cornsilk;
 }
 
+.container3{
+  height: 500px;
+  width:auto;
+  background: #6dc7ec;
+}
 
 /*Navi */
 #nav {
@@ -246,40 +247,21 @@
 .contactus{
     background: rgba(22,27,29);
     height: 332px;
-    width:506px;
+    width: 33.3%;
     float: left;
     color: rgba(229,239,193);
 
 }
-.contactus a, .helpus a, .followus a{
-    font-size: 18px;
-    color: silver;
-}
-.contactus img{
-    width: 50px;
-    position: absolute;
-    left: 5%;
-}
-.helpus img{
-    width: 50px;
-    position: absolute;
-    left: 43%;
-}
-.followus img{
-    width: 50px;
-    position: absolute;
-    left: 76%;
-}
 .helpus{
     height: 332px;
-    width:506px;
+    width:33.3%;
     float: left;
     background: rgba(206,234,211);
     color: rgba(42,54,59);
 }
 .followus{
     height: 332px;
-    width:506px;
+    width:33.3%;
     float: left;
     background: rgba(37,113,95);
     color: white;
@@ -470,4 +452,3 @@
     bottom: 20%;
 
 }
-
